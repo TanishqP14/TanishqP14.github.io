@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import { useState, useEffect } from "react";
 
-function Banner() {
+function Banner({navHeight}) {
 
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -54,9 +54,9 @@ function Banner() {
             <h1>{`Hi! I'm John, a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam.</p>
-            <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
+            <button onClick={() => console.log(navHeight)}>Let's Connect <ArrowRightCircle size={25} /></button>
           </Col>
-          <Col xs={12} md={7} xl={5} className="mt-4 d-none d-md-block">
+          <Col xs={12} md={7} xl={5} className="mt-4">
             <img src={headerImg} alt="Header Img" className="get-smaller" />
           </Col>
         </Row>

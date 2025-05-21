@@ -225,6 +225,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: #fff;
 }
 
+
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
@@ -322,8 +323,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @media (max-width: 1000px) {
   .get-smaller {
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
   }
 
   /* .banner h1 {
