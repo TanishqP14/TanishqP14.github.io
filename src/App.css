@@ -344,3 +344,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding: 6px 8px;
   } */
 } 
+
+canvas {
+  height: 85vh;
+  width: 50vw;
+}
