@@ -2,6 +2,7 @@ import {Suspense} from 'react';
 import {Canvas} from '@react-three/fiber';
 import {Environment, OrbitControls, Preload} from '@react-three/drei';
 
+
 import Model from '../../public/Model';
 
 const ModelComp = () => {
@@ -18,5 +19,6 @@ const ModelComp = () => {
         </Canvas>
     )
 }
+
 
 export default ModelComp;

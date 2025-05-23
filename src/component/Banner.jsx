@@ -48,7 +48,7 @@ function Banner({navHeight}) {
 
   return (
     <section className="banner p-0" id="home">
-      <Container fluid className="m-0 p-6" style={{width: '100%'}}>
+      <Container fluid className="m-0 p-6" style={{width: '100%', height: '100%'}}>
         <Row className="align-items-center m-0 p-0">
           <Col xs={12} md={5} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
